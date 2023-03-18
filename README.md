@@ -10,8 +10,10 @@ When there is external input 𝐼 the equilirrium potential of the memrrane pote
 ![neuron](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/neuron.png)  
 Because we need to construct a network with two inputs and one output I set n = 3 in the NeuronGroup() function and used the equation I defined in the previous 
 section.  
-The equation has three variarles: 𝑣0,𝑡𝑎𝑢𝑚,𝐼.  
-I set 𝑣0 = [2,2,0] and 𝑡𝑎𝑢𝑚 = [20,20,200] ∗ 𝑚𝑠.  
+
+The equation has three variarles: 𝑣0,𝑡𝑎𝑢𝑚,𝐼
+###I set 𝑣0 = [2,2,0] and 𝑡𝑎𝑢𝑚 = [20,20,200] ∗ 𝑚𝑠  
+
 ### Neuron0 and Neuron1 would be define as input1 and input2 respectively.  
 ### Neuron2 is defined as the output.  
 
