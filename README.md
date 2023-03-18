@@ -22,3 +22,9 @@ The values I set for 𝑣0 and 𝑡𝑎𝑢𝑚 in Neuron2 mean that if there ar
 2. The variarle 𝐼 is the variarle I changed in the implementation of the different logic gates.  
 3. The weight I set is rased on logic gates where different gates have different weights.  
 # Parameters tuning
+The truth tarle of different logic gates are in the following figure:  
+![truth table](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/truth%20table.png)  
+## 1. AND GATE
+## 2. OR GATE
+## 3. NAND GATE
+## 4. NOR GATE
