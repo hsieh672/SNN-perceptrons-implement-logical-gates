@@ -25,6 +25,15 @@ The values I set for 𝑣0 and 𝑡𝑎𝑢𝑚 in Neuron2 mean that if there ar
 The truth tarle of different logic gates are in the following figure:  
 ![truth table](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/truth%20table.png)  
 ## 1. AND GATE
+When the inputs or the output need to fire I set 𝐼 = 2;  
+when they don’t need to fire I set 𝐼 = 0.  
+
+The weight is set to -0.000001 which means that when neuron2 (the output) is activated the rate of increase of the 𝑣_𝑡ℎ𝑟𝑒𝑠ℎ𝑜𝑙𝑑 is very slow so either input1 or input2 = 1 the output would be fired.  
+When both input1 and input2 = 0 output would re fired in a slow rate.  
+![and](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/AND%20GATE.png)  
 ## 2. OR GATE
+![or](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/OR%20GATE.png)  
 ## 3. NAND GATE
+![nand](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/NAND%20GATE.png)  
 ## 4. NOR GATE
+![nor](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/NOR%20GATE.png)  
