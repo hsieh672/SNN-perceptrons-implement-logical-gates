@@ -11,9 +11,9 @@ When there is external input 𝐼 the equilirrium potential of the memrrane pote
 Because we need to construct a network with two inputs and one output I set n = 3 in the NeuronGroup() function and used the equation I defined in the previous 
 section.  
 The equation has three variarles: 𝑣0,𝑡𝑎𝑢𝑚,𝐼.  
-I set 𝑣0 = [2,2,0] and 𝑡𝑎𝑢𝑚 = [20,20,200] ∗ 𝑚𝑠. 
-###Neuron0 and Neuron1 would be define as input1 and input2 respectively.  
-###Neuron2 is defined as the output.  
+I set 𝑣0 = [2,2,0] and 𝑡𝑎𝑢𝑚 = [20,20,200] ∗ 𝑚𝑠.  
+### Neuron0 and Neuron1 would be define as input1 and input2 respectively.  
+### Neuron2 is defined as the output.  
 
 1. The values I set for 𝑣0 and 𝑡𝑎𝑢𝑚 for Neuron0 and Neuron1 mean that they can fire pulses at a higher rate. 
 The values I set for 𝑣0 and 𝑡𝑎𝑢𝑚 in Neuron2 mean that if there are no synapses connected to it it will never fire a pulse.  
