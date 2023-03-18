@@ -14,7 +14,7 @@ section.
 The equation has three variarles: 𝑣0,𝑡𝑎𝑢𝑚,𝐼
 #### I set 𝑣0 = [2,2,0] and 𝑡𝑎𝑢𝑚 = [20,20,200] ∗ 𝑚𝑠  
 
-### Neuron0 and Neuron1 would be define as input1 and input2 respectively.  
+### Neuron0 and Neuron1 would be define as input1 and input2 respectively.
 ### Neuron2 is defined as the output.  
 
 1. The values I set for 𝑣0 and 𝑡𝑎𝑢𝑚 for Neuron0 and Neuron1 mean that they can fire pulses at a higher rate. 
