@@ -5,7 +5,8 @@ A simple perceptron has been designed using Brian2, with a neuron model based on
 # LIF model
 The following equation is the mathematical formulae of the LIF model:  
 ![LIF model](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/LIF%20model.png)  
-When there is external input 𝐼 the equilirrium potential of the memrrane potential will increase. Once the memrrane potential exceeds a given threshold a spike occurs and the memrrane potential is reset to a specific reset potential.
+When there is external input 𝐼 the equilirrium potential of the memrrane potential will increase. Once the memrrane potential exceeds a given threshold a spike occurs and the memrrane potential is reset to a specific reset potential.  
+![initial set](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/LIF%20model%20set.png)
 #Modeling construction
 ![neuron](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/neuron.png)  
 Because we need to construct a network with two inputs and one output I set n = 3 in the NeuronGroup() function and used the equation I defined in the previous 
@@ -29,11 +30,26 @@ When the inputs or the output need to fire I set 𝐼 = 2;
 when they don’t need to fire I set 𝐼 = 0.  
 
 The weight is set to -0.000001 which means that when neuron2 (the output) is activated the rate of increase of the 𝑣_𝑡ℎ𝑟𝑒𝑠ℎ𝑜𝑙𝑑 is very slow so either input1 or input2 = 1 the output would be fired.  
-When both input1 and input2 = 0 output would re fired in a slow rate.  
+
+When both input1 and input2 = 0 output would be fired in a slow rate.  
 ![and](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/AND%20GATE.png)  
 ## 2. OR GATE
+When the inputs or the output need to fire I set 𝐼 = 2;  
+when they don’t need to fire I set 𝐼 = 0.  
+
+The weight is set to 0.1 which means that when neuron2 (the output) is activated the rate of increase of the 𝑣_𝑡ℎ𝑟𝑒𝑠ℎ𝑜𝑙𝑑 is very fast so either input1 or input2 = 1, the output would be fired.  
 ![or](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/OR%20GATE.png)  
 ## 3. NAND GATE
+When the inputs or the output need to fire I set 𝐼 = 2;  
+when they don’t need to fire I set 𝐼 = 0.  
+The weight is set to -0.000001 which means that when neuron2 (the output) is activated the rate of increase of the 𝑣_𝑡ℎ𝑟𝑒𝑠ℎ𝑜𝑙𝑑 is very slow so either input1 or input2 = 1, the output would be fired. 
+
+When both input1 and input2 = 0 output would be fired in a slow rate.
 ![nand](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/NAND%20GATE.png)  
 ## 4. NOR GATE
+When the inputs or the output need to fire I set 𝐼 = 2;  
+when they don’t need to fire I set 𝐼 = 0.  
+The weight is set to -0.000001 which means that when neuron2 (the output) is activated the rate of increase of the 𝑣_𝑡ℎ𝑟𝑒𝑠ℎ𝑜𝑙𝑑 is very slow so either input1 or input2 = 1, the output won’t be fired.  
+
+When both input1 and input2 = 0 output would be fired in a slow rate.
 ![nor](https://github.com/hsieh672/SNN-perceptrons-implement-logical-gates-/blob/main/NOR%20GATE.png)  
