@@ -43,6 +43,7 @@ The weight is set to 0.1 which means that when neuron2 (the output) is activated
 ### 3. NAND GATE
 When the inputs or the output need to fire I set 𝐼 = 2;  
 when they don’t need to fire I set 𝐼 = 0.  
+
 The weight is set to -0.000001 which means that when neuron2 (the output) is activated the rate of increase of the 𝑣_𝑡ℎ𝑟𝑒𝑠ℎ𝑜𝑙𝑑 is very slow so either input1 or input2 = 1, the output would be fired. 
 
 When both input1 and input2 = 0 output would be fired in a slow rate.
@@ -50,6 +51,7 @@ When both input1 and input2 = 0 output would be fired in a slow rate.
 ### 4. NOR GATE
 When the inputs or the output need to fire I set 𝐼 = 2;  
 when they don’t need to fire I set 𝐼 = 0.  
+
 The weight is set to -0.000001 which means that when neuron2 (the output) is activated the rate of increase of the 𝑣_𝑡ℎ𝑟𝑒𝑠ℎ𝑜𝑙𝑑 is very slow so either input1 or input2 = 1, the output won’t be fired.  
 
 When both input1 and input2 = 0 output would be fired in a slow rate.
